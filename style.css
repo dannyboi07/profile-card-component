@@ -40,6 +40,9 @@ body {
     z-index: -1;
 }
 
+h3 {
+    color: var(--prim-dark-desat-blue);
+}
 
 .upper-container {
     position: relative;
