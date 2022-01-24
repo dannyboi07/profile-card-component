@@ -1,0 +1,156 @@
+:root {
+    --prim-dark-cyan: hsl(185, 75%, 39%);
+    --prim-dark-desat-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+
+    --neut-dark-gray: hsl(0, 0%, 85%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--prim-dark-cyan);
+    
+    font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+
+.body-bg-img1 {
+    position: fixed;
+    right: 50%;
+    bottom: 40%;
+    z-index: -1;
+}
+
+.body-bg-img2 {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: -1;
+}
+
+
+.upper-container {
+    position: relative;
+}
+
+.upper-container, .lower-container {
+    background-color: white;
+}
+
+.upper-container, .design-bg img {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+.design-bg img {
+    display: block;
+
+}
+
+.profile-card {
+    /* border: 1px solid black; */
+    border-radius: 1em;
+}
+
+.profile-picture {
+    width: 106px;
+    position: absolute;
+    top: 90px;
+    left: 130px;
+
+    border-radius: 10em;
+}
+
+.profile-picture img {
+    display: block;
+
+    border: 5px solid white;
+    border-radius: 10em;
+}
+
+.position-helper {
+    height: 70px;
+}
+
+.name-place-bg {
+    height: 150px;
+}
+
+.name-place {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+    padding-left: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.name-place span {
+    margin-left: 0.5em;
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+}
+
+.name-place h3 {
+    margin-bottom: 0.25em;
+}
+
+.name-place p {
+    font-size: 0.9rem;
+    margin-top: 0.25em;
+    color: var(--dark-grayish-blue);
+}
+
+hr {
+    height: 1px;
+    background-color: var(--neut-dark-gray);
+}
+
+.lower-container {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 1.5em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+.lower-container p {
+    margin-top: 0.4em;
+
+    font-size: 0.75rem;
+    color: var(--dark-grayish-blue);
+    letter-spacing: 1px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    position: absolute;
+    margin-top: 25vh;
+}
+
+.attribution a { 
+    color: var(--dark-grayish-blue);
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.attribution a:hover {
+    color: white;
+    transition: 0.5s;
+}
