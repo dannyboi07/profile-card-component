@@ -63,24 +63,24 @@ h3 {
 }
 
 .profile-card {
-    /* border: 1px solid black; */
     border-radius: 1em;
 }
 
 .profile-picture {
     width: 106px;
     position: absolute;
-    top: 90px;
-    left: 130px;
-
-    border-radius: 10em;
+    top: 31%;
+    left: 34.5%;
+    /* top: 90px;
+    left: 121px; 34.5%;*/
+    border: 5px solid white;
+    border-radius: 50%;
 }
 
 .profile-picture img {
     display: block;
 
-    border: 5px solid white;
-    border-radius: 10em;
+    border-radius: 50%;
 }
 
 .position-helper {
@@ -97,7 +97,7 @@ h3 {
     justify-content: flex-start;
     align-items: center;
     
-    padding-left: 1em;
+    /* padding-left: 1em; */
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
@@ -128,6 +128,7 @@ hr {
     justify-content: space-around;
 
     padding: 1.5em;
+    padding-right: 2.25em;
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
 }
