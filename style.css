@@ -20,6 +20,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
     background-color: var(--prim-dark-cyan);
     
     font-family: 'Kumbh Sans', sans-serif;
@@ -71,8 +72,7 @@ h3 {
     position: absolute;
     top: 31%;
     left: 34.5%;
-    /* top: 90px;
-    left: 121px; 34.5%;*/
+    
     border: 5px solid white;
     border-radius: 50%;
 }
@@ -97,7 +97,6 @@ h3 {
     justify-content: flex-start;
     align-items: center;
     
-    /* padding-left: 1em; */
     margin-top: 0.5em;
     margin-bottom: 1em;
 }
